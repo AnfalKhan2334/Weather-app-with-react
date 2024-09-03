@@ -18,7 +18,7 @@ function Bye() {
           flag: data.flags.png,
           population: data.population,
           currency: Object.values(data.currencies)[0].name,
-          language: Object.values(data.languages)[0],
+          language: Object.values(data.languages)[0,1],
         };
         setCountryData(countryInfo);
       })

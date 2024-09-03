@@ -1,10 +1,10 @@
-import Hi from './Hi';
+// import Hi from './Hi';
 import './App.css';
-// import Bye from './Bye'
+import Bye from './Bye'
 
 function App() {
   return(
-    <Hi/>
+    <Bye/>
   )
 
 }
